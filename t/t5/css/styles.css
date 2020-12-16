@@ -1,3 +1,10 @@
 section {
   min-height: 50vh;
 }
+
+main section div.row div .card {
+  color: red;
+}
+.card {
+  color: red;
+}
