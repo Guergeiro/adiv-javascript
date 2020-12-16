@@ -40,3 +40,17 @@ setTimeout(() => {
 // Remover a classe "bg-info" e adicionar a classe "bg-outline-dark" ao botão
 // do último card que diz "Read More"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

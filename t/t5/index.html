@@ -15,6 +15,10 @@
     <script src="js/script.js" defer></script>
   </head>
   <body>
+    <script>
+      // É suposto dar erro
+      document.querySelector("footer").innerHTML = "ola"
+    </script>
     <!-- Header -->
     <header>
       <nav class="navbar navbar-expand navbar-dark bg-dark">
@@ -260,6 +264,7 @@
       </div>
     </footer>
     <script>
+      // É suposto não dar erro
       document.querySelector("footer").innerHTML = "ola"
     </script>
   </body>
