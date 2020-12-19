@@ -36,21 +36,21 @@ setTimeout(() => {
 */
 
 // Alterar o texto do botão do tipo "submit" para "submeter".
+setTimeout(() => {
+  const elemento = document.querySelector(
+    "body > main > section:nth-child(1) > form > div:nth-child(7) > button"
+  );
+  elemento.innerHTML = "submeter";
+  console.log(elemento);
+}, 4000);
 
-// Remover a classe "bg-info" e adicionar a classe "bg-outline-dark" ao botão
+// Remover a classe "btn-info" e adicionar a classe "btn-outline-dark" ao botão
 // do último card que diz "Read More"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+setTimeout(function () {
+  const btn = document.querySelector(
+    "body > main > section:nth-child(2) > div > div:nth-child(6) > div > div > button"
+  );
+  btn.classList.remove("btn-info");
+  btn.classList.add("btn-outline-dark");
+}, 5000);
