@@ -84,7 +84,8 @@ console.log(count(str));
 ```javascript
 // Ex8
 String.prototype.half = function () {
-  return this.slice(0, this.length / 2);
+  const half = Math.floor(this.length / 2);
+  return this.substring(0, half) + this.substring(half, this.length);
 };
 const str = prompt("Insira uma string.");
 console.log(str.half());
@@ -112,7 +113,7 @@ String.prototype.customConcat = function (str) {
 };
 const str1 = prompt("Insira uma string.");
 const str2 = prompt("Insira outra string.");
-console.log(str1.customConcat());
+console.log(str1.customConcat(str2));
 ```
 
 ```javascript
