@@ -45,8 +45,8 @@ function transformMinutes(minutes) {
     throw new Error("Must be a positive number.");
   }
   const hours = minutes / 60;
-  const transformedMinutes = (hours - Math.floor(hours)) * 60;
-  return `${Math.floor(hours)}h${Math.round(transformedMinutes)}min`;
+  const transformedMinutes = minutes % 60;
+  return `${Math.floor(hours)}h${transformedMinutes}min`;
 }
 const n = parseInt(prompt("Insira um número para converter."));
 console.log(transformMinutes(n));
