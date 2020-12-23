@@ -29,7 +29,7 @@
 10. Utilizando o HTML da Teórica, altere a classe `btn-outline-danger` para
     `btn-danger` do `button` que contem o texto _"Reset"_.
 
-11. Fazer um simples jogo de pedra, papel ou tesoura, seguindo a imagem seguinte:
+11. Fazer um simples jogo de pedra, papel ou tesoura, seguindo a imagem seguinte.
     ![ex01](./assets/ex01.png)
 
 12. Fazer o jogo da forca, recorrendo a algumas palavra pré-definidas.
@@ -58,7 +58,7 @@
     tentativas para acertar um número aleatório.
     ![ex11](./assets/ex11.png)
 
-19. Crie um formulário que calcule a soma entre 2 números.
+19. Crie um formulário que em que o utilizador insira o resultado da soma entre 2 números aleatórios, gerados a cada refresh da página.
     ![ex12](./assets/ex12.png)
 
 20. Crie um programa que ao clicar num botão, altere a `background-color` de
